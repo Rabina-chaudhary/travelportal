@@ -18,22 +18,26 @@ function Banner() {
     
     <div className='container mx-auto relative z-10 top-24 left-12 bg-white w-[180%] py-10 px-10 rounded-2xl'> 
       <div className="inline-flex rounded-full bg-blue-800 p-1 mb-6">
-        <button
-          onClick={() => setTripType('oneway')}
-          className={`px-4 py-2 text-sm font-semibold rounded-full transition ${
-            tripType === 'oneway' ? 'bg-gray-100 text-green-900 font-bold' : 'text-white hover:bg-gray-300'
-          }`}
-        >
-          ONE WAY
-        </button>
-        <button
-          onClick={() => setTripType('roundtrip')}
-          className={`px-4 py-2 text-sm font-semibold rounded-full transition ${
-            tripType === 'roundtrip' ? 'bg-gray-100 text-green-900 font-bold' : 'text-white hover:bg-gray-300'
-          }`}
-        >
-          ROUND TRIP
-        </button>
+         <button
+              onClick={() => setTripType('oneway')}
+              className={`px-4 py-2 text-sm font-semibold rounded-full transition ${
+                tripType === 'oneway'
+                  ? 'bg-gray-100 text-green-900 font-bold'
+                  : 'text-white hover:bg-gray-300'
+              }`}
+            >
+              ONE WAY
+            </button>
+            <button
+              onClick={() => setTripType('roundtrip')}
+              className={`px-4 py-2 text-sm font-semibold rounded-full transition ${
+                tripType === 'roundtrip'
+                  ? 'bg-gray-100 text-green-900 font-bold'
+                  : 'text-white hover:bg-gray-300'
+              }`}
+            >
+              ROUND TRIP
+            </button>
     </div>
   
 
@@ -112,11 +116,10 @@ function Banner() {
 </div>
 </div>
 </div>
-
-
-     
-    
+  
   )
 }
 
 export default Banner
+
+
