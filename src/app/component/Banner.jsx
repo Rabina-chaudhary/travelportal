@@ -16,7 +16,7 @@ function Banner() {
   <div className="bg-white bg-opacity-90 rounded-xl p-6 max-w-6xl w-full">
 
     
-    <div className='container mx-auto relative z-10 top-24 left-12 bg-white w-[180%] py-10 px-10 rounded-2xl'> 
+    <div className='container mx-auto relative z-10 top-13 left-12 bg-white w-[180%] py-18 px-10 rounded-2xl'> 
       <div className="inline-flex rounded-full bg-blue-800 p-1 mb-6">
          <button
               onClick={() => setTripType('oneway')}
